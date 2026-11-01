@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ship without leaks: pre-launch security kit for Lovable, Bolt and Cursor apps</title>
+<meta name="description" content="Check Supabase RLS, leaked keys and Stripe webhooks from inside your own repo before you launch.">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="hero"><p class="tag">For apps built with Lovable, Bolt or Cursor</p>
+<h1>Your app works. Is your database open to everyone?</h1>
+<p class="sub">A kit that checks the 3 leaks AI built apps ship with most: Supabase RLS, secret keys in the bundle, and Stripe webhooks without signatures.</p>
+<a class="btn" href="#pricing">Get the kit, US$39</a></header>
+<section><h2>The problem</h2><p>Nothing breaks in the demo. It breaks when a second person, or a script, uses your app. A table without RLS can be read by anyone with your public anon key. A <code>VITE_</code> secret ships to every visitor. A webhook without a signature check accepts fake payments.</p></section>
+<section><h2>Why inside your repo</h2><p>Outside scanners only see what your site sends. They cannot read your policies or your server code. This kit runs where your code is, in Claude Code, Cursor or a terminal.</p></section>
+<section><h2>What you get</h2><ul>
+<li>PDF guide: each leak, why it happens, and the fix with code</li>
+<li>Pre-launch checklist</li>
+<li>Claude Code skill that runs the full review and writes a report</li>
+<li>Cursor rule and AGENTS.md snippet so new code follows the rules</li>
+<li>3 small Python scripts: bundle key scan, RLS check, Stripe webhook check</li>
+<li>A worked example on a fictional app, broken and fixed</li></ul></section>
+<section id="pricing" class="price"><h2>Ship without leaks</h2><p class="amount">US$39</p>
+<p>One time. Instant download. Personal and commercial use. No resale.</p>
+<a class="btn disabled" href="PAYMENT_LINK_TODO">Coming soon</a></section>
+<section><h2>Questions?</h2>
+<a class="btn ghost" href="mailto:renandlsantos.ai@gmail.com?subject=Ship%20without%20leaks">Questions? Email us</a></section>
+<footer><p>Static checks catch common mistakes. This is not a full security audit.</p></footer>
+</body></html>
